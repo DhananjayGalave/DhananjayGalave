@@ -1,14 +1,15 @@
-.belownav{
-    background-color:slategray;
-    padding: 50px;
+.belownav {
+    background-color: slategray;
     height: 85vh;
     background-image: url("image/background/IMG_20210209_205953_414.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.imgrid{
-    height: 250px;
-    width: 300px;
+.imgrid {
+    width:350px;
+    height:250px;
+    border: 2px solid brown;
+    border-radius: 4px;
     background-color: antiquewhite;
 }
