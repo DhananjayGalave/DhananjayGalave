@@ -9,7 +9,7 @@ const headerSec = `<nav class="navbar navbar-expand-sm bg-black navbar-dark">
         <div class="collapse navbar-collapse d-md-flex justify-content-end" id="collapsibleNavbar">
           <ul class="navbar-nav text-end">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contactus.html">Contact Us</a>
