@@ -1,4 +1,4 @@
-const hederSec = `<nav class="navbar navbar-expand-sm bg-black navbar-dark">
+const headerSec = `<nav class="navbar navbar-expand-sm bg-black navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img class="rounded-circle" src="image/logo/DASG-Logo-White.png" alt="logo" height="80">
@@ -67,5 +67,5 @@ const hederSec = `<nav class="navbar navbar-expand-sm bg-black navbar-dark">
       </div>
     </div>`;
 
-document.getElementById("headerCon").innerHTML = hederSec;
+document.getElementById("headerCon").innerHTML = headerSec;
 document.getElementById("footerCon").innerHTML = footerSec;
