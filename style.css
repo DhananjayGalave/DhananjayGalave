@@ -1,3 +1,7 @@
+body {
+    /* overflow: hidden; */
+  }
+
 .belownav {
     background-color: slategray;
     height: 85vh;
@@ -7,9 +11,13 @@
 }
 
 .imgrid {
-    width:350px;
-    height:250px;
+    width:350px; */
+    height:550px;
     border: 2px solid brown;
     border-radius: 4px;
     background-color: antiquewhite;
+}
+
+iframe{
+    scale: 80%;
 }
