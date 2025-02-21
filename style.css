@@ -12,6 +12,8 @@
 
 iframe{
     scale: 80%;
+    max-width: 360px;
+    border: 1px solid rgb(224, 199, 240);
     border-radius: 10px;
 }
 
