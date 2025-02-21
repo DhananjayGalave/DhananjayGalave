@@ -5,18 +5,19 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.ttt{
+
+.pttt{
+    max-width: 360px;
+}
+
+iframe{
+    scale: 80%;
     border-radius: 10px;
 }
 
 .imgrid {
-    width:350px;
-    height:550px;
     border: 2px solid brown;
     border-radius: 10px;
     background-color: antiquewhite;
 }
 
-iframe{
-    scale: 75%;
-}
