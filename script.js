@@ -1,7 +1,7 @@
 const headerSec = `<nav class="navbar navbar-expand-sm bg-black navbar-dark mx-5">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img class="rounded-circle1" src="image/logo/DASG_Logo.png" alt="logo" height="70">
+          <img class="rounded-circle1" src="image/logo/DASG_Logo.webp" alt="logo" height="70">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
