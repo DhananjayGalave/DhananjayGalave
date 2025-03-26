@@ -1,12 +1,8 @@
-.belownav {
-    background-color: slategray;
-    height: 85vh;
-    background-image: url("image/background/waiting_boy.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.faceImg{
+    max-width: 450px;
 }
 
-.pttt{
+.tic_window{
     max-width: 360px;
 }
 

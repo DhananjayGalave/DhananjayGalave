@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,64 +10,83 @@
   <title>Dhananjay Galave | Website Developer</title>
   <link rel="icon" type="image/png" href="image/logo/favicon-removebg-preview.png">
 </head>
-
 <body class="text-white bg-black">
   <!-- Header -->
   <header id="headerCon"></header>
-  <!-- Hellow -->
-  <div>
-    <div class="d-flex align-content-center justify-content-center belownav">
-      <div class="d-flex align-items-center bg-black border-secondary border-2 rounded bg-gradient p-md-4 my-5">
-        <div class="m-5">
+  <div class="container-fluid pb-5">
+    <div class="row">
+      <div class="col-md-6 border-end border-3 my-5 my-md-0 d-flex flex-column align-items-end justify-content-center d-sm-hidden">
           <h1>Hello;</h1>
-          <h4>I'm Dhananjay Galave.
-            <b>Web Developer.</b>
-          </h4>
-        </div>
+          <h4 class="text-end">I'm Dhananjay Galave. <b>Web Developer.</b></h4>
+      </div>
+      <div class="d-none d-md-block col-md-6 border-start border-3">
+        <img class="img-fluid faceImg" src="image/background/Dhananjay-s1.png" alt="Dhananjay-background-img">
       </div>
     </div>
   </div>
+  
   <!-- My Project -->
   <div>
     <div class="container-fluid">
       <div class="p-3 m-1">
         <h3 class="text-center">My Projects</h3>
       </div>
-      <div class="row">
-        <div class="col-md-6 p-3">
-          <div class="pttt mx-auto">
-            <iframe id="tic" src="https://dhananjaygalave.github.io/Tic-Tac-Toe/" width="100%" height="520" scrolling="no" class=""></iframe>
+      <div class="container-md">+
+        <h4 class="border-bottom border-2 text-center p-2">Tic_Tac_Toe</h4>
+        <div class="text-end">
+          <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="pill" href="#Btic">Virsion 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#Atic">Virsio 2</a>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content">
+          <div id="Btic" class="tab-pane active">
+            <div class="row">
+              <div class="col-md-6 p-3">
+                <div class="tic_window mx-auto">
+                  <iframe id="tic" src="https://dhananjaygalave.github.io/Tic-Tac-Toe/" width="100%" height="520"
+                    scrolling="no" class=""></iframe>
+                </div>
+              </div>
+              <div class="col-md-6 p-3 my-auto">
+                <div class="border-start border-3 ps-3 d-flex flex-column align-items-start justify-content-center">
+                  <p>Developed using - HTML, CSS, JavaScript, Bootstrap</p>
+                  <p>Basic CSS & JS, Easy to understand.</p>
+                  <p>Clasic multiplayer game.</p>
+                  <p>Clean & simple code.</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <!-- <h4 class="border-bottom border-2 text-center p-2">First Project Name</h4> -->
-        </div>
-        <div class="col-md-6 p-3">
-          <h4 class="border-bottom border-2 text-center p-2">Tic_Tac_Toe</h4>
-        </div>
-        <div class="col-md-6 p-3">
-          <!-- <div class="imgrid mx-auto"></div> -->
-          <h4 class="border-bottom border-2 text-center p-2">Second Project Name</h4>
-        </div>
-        <div class="col-md-6 p-3">
-          <div class="imgrid mx-auto">
-            <h6>hi</h6>
-            <h6>hi</h6>
-            <h6>hi</h6>
-            <h6>hi</h6>
-            <h6>hi</h6>
-            <h6>hi</h6>
+          <div id="Atic" class="tab-pane fade">
+            <div class="row">
+              <div class="col-md-6 p-3">
+                <div class="tic_window mx-auto">
+                  <iframe id="tic" src="https://dhananjaygalave.github.io/Tic-Tac/" width="100%" height="520"
+                    scrolling="no" class=""></iframe>
+                </div>
+              </div>
+              <div class="col-md-6 p-3 my-auto">
+                <div class="border-start border-3 ps-3 d-flex flex-column align-items-start justify-content-center">
+                  <p>Developed using - HTML, CSS, JavaScript, Bootstrap</p>
+                  <p>Basic CSS & JS, Easy to understand.</p>
+                  <p>Clasic multiplayer game.</p>
+                  <p>Clean & simple code.</p>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="p-2">
-          <p class="text-center">View More</p>
         </div>
       </div>
     </div>
-  </div>  
+  </div>
   <!-- Footer -->
   <footer id="footerCon" class="py-2"></footer>
   <script src="script.js"></script>
-  <!-- <script src="module.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
