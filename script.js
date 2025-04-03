@@ -12,7 +12,7 @@ const headerSec = `<nav class="navbar navbar-expand-sm bg-black navbar-dark mx-m
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contactus.html">Contact Us</a>
+              <a class="nav-link" href="about.html">About Me</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link" href="#">Projects</a>
