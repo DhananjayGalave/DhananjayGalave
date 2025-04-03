@@ -1,26 +1,4 @@
-const headerSec = `<nav class="navbar navbar-expand-sm bg-black navbar-dark mx-md-5 mx-1">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img class="rounded-circle1" src="image/logo/DASG_Logo.webp" alt="logo" height="70">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-md-flex justify-content-end" id="collapsibleNavbar">
-          <ul class="navbar-nav text-end">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Me</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li> -->
-          </ul>
-        </div>
-      </div>
-    </nav>`;
+const headerSec = ``;
 
     const footerSec =`<div class="container-fluid">
       <div class="row mx-auto d-flex">
